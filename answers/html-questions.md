@@ -17,7 +17,7 @@ We can enforce browsers to use standards mode with a `<!DOCTYPE html>` tag.
 
 #### What's the difference between HTML and XHTML?
 
-*Not answered yet*
+Both are markup languages, XHTML was derived from HTML to conform to XML standards.
 
 #### Are there any problems with serving pages as `application/xhtml+xml`?
 
@@ -44,11 +44,13 @@ attributes, or other hacks like that.
 
 #### Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 
-*Not answered yet*
+Semantic text markup, form elements, js API etc.
 
 #### Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.
 
-*Not answered yet*
+All are used to store data on the client side. Each one has its own storage and expiration limit. sessionStorage is similar to localStorage but expires when the browser closed (not the tab). 
+Cookie stores data that has to be sent back to the server with subsequent requests.
+
 
 #### Describe the difference between `<script>`, `<script async>` and `<script defer>`.
 
